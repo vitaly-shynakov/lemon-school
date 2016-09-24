@@ -1,0 +1,15 @@
+img {
+      width: 300px;
+      border: 4px double #f0f;
+      align-content: center;
+  }
+  figure {
+  	text-align: center;
+  }
+  .bd-left {
+  	border-left: 4px dashed BlueViolet;
+  	}
+  footer {
+  	text-align: center;
+  }
+
