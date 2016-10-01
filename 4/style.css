@@ -4,46 +4,29 @@
 	padding: 0;
 }
 
-.karkas {
+.wrapper {
 	border-left: 2px solid #000;
 	border-right: 2px solid #000;
 	width: 1200px;
 	margin: 0 auto;
 	display: block;
+	box-sizing: content-box;
+	overflow: hidden;
+}
+.container {
+	font-size: 0;
+	margin-left: -75px;
+	margin-right: -75px;
+
+
 }
 
-.firstLine {
-	display: block;
-
-}
-
-.kvadrat1 {
+.item {
 	border: 2px solid #000;
 	height: 300px;
 	width: 300px;
 	display: inline-block;
-	margin-left: -2px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 150px;
 	
-}
-
-.kvadrat2 {
-	border: 2px solid #000;
-	height: 300px;
-	width: 300px;
-	display: inline-block;
-	margin: 0 146px;
-	
-	
-}
-.kvadrat3 {
-	border: 2px solid #000;
-	height: 300px;
-	width: 300px;
-	display: inline-block;
-	margin-right: -2px;
-}
-
-.firstLine2 {
-	display: block;
-	margin-top: 146px;
-}
