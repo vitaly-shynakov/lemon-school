@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.karkas {
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	width: 1200px;
+	margin: 0 auto;
+	display: block;
+}
+
+.firstLine {
+	display: block;
+
+}
+
+.kvadrat1 {
+	border: 2px solid #000;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	margin-left: -2px;
+	
+}
+
+.kvadrat2 {
+	border: 2px solid #000;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	margin: 0 146px;
+	
+	
+}
+.kvadrat3 {
+	border: 2px solid #000;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	margin-right: -2px;
+}
+
+.firstLine2 {
+	display: block;
+	margin-top: 146px;
+}
