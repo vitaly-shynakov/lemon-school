@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+    padding: 0;
+  	border: 0;
+  	box-sizing: border-box;
+  	font: inherit;
+}
+
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+	
+}
+
+.header {
+	height: 100px;
+	background: #C0C0C0;
+}
+.table {
+	width: 100%;
+	display:table; 
+}
+
+.asside {
+	width: 15%;
+	background: #FFFF80;
+	display: table-cell;
+}
+
+.content {
+	width: 70%;
+	background: #80FF80;
+	display: table-cell;
+	padding: 50px;
+
+
+}
+
+.asside2 {
+	width: 15%;
+	background: #DB0800;
+	display: table-cell;
+}
+
+
+.footer {
+	height: 100px;
+	background: #C0C0C0;
+}
+
+
+.header,.asside,.content,.asside2,.footer {
+	font-size: 30px;
+	padding: 50px;
+}
