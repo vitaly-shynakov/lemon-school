@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Списки</title>
+	<style>
+		li {
+    		list-style-type: none; 
+   }
+   		body>ul>li:before {
+    		content: "★  "; 
+    		margin-right: 5px;
+    	}
+    	body>ul>ul>li:before {
+    		content: "❤  "; 
+    		margin-right: 5px;
+    	}
+    	body>ul>ul>ul>li:before {
+    		content: "☀  ";
+    		margin-right: 5px; 
+    	}
+    	a {
+    		text-decoration: none;
+    		color: #000;
+    		position: relative;
+    		display: inline-block;
+    	}
+    	a::before {
+			content: '';
+			position: absolute;
+			width: 50%;
+			height: 1px;
+			background-color: #000;
+			bottom: 0;
+			left: 0;
+			transition: all .3s;
+		}
+		a:hover::before  {
+			content: '';
+			
+			width: 100%;
+			
+	
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#">Я простая ссылка</a></li>
+		<li><a href="#">А я ссылка с ховером</a></li>
+			<ul>
+				<li><a href="#">И еще ссылка во внутреннем списке</a></li>
+				<li><a href="#">И еще ссылка во внутреннем списке</a></li>
+				<li><a href="#">И еще ссылка во внутреннем списке</a></li>
+				<ul>
+					<li><a href="#">Последняя ссылка 3-го уровня</a></li>
+				</ul>
+				<li><a href="#">Вернемся назад</a></li>
+			</ul>
+		<li><a href="#">И еще назад</a></li>
+	</ul>
+</body>
+</html>

@@ -319,3 +319,16 @@ footer div span+span {
 	float: right;
 	line-height: 67px;
 }
+
+.circle::after {
+			content: '';
+			position: absolute;
+			display: inline-block;
+			height: 100%;
+			width: 9999px;
+			background-color: #fff;
+			left: 71%;
+			top: 0;
+}
+
+
