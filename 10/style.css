@@ -1,0 +1,63 @@
+@font-face {
+    font-family: BebasNeuelight; 
+    src: url(fonts/bebas/TTF/BebasNeueLight.ttf);     
+}
+
+@font-face {
+    font-family: BebasNeueBook; 
+    src: url(fonts/bebas/TTF/BebasNeueBook.ttf);
+    /*font-style: Book;*/
+}
+@font-face {
+    font-family: BebasNeueRegular; 
+    src: url(fonts/bebas/TTF/BebasNeueRegular.ttf);
+}
+@font-face {
+    font-family: BebasNeueThin; 
+    src: url(fonts/bebas/TTF/BebasNeueThin.ttf);
+}
+p {
+	font-family: BebasNeuelight;
+	
+}
+p+p {
+	font-family: BebasNeueBook;
+	
+}
+p+p+p {
+	font-family: BebasNeueRegular;
+	
+}
+p+p+p+p {
+	font-family: BebasNeueThin;
+	
+} 
+/*
+p {
+	font-family: BebasNeueRegular;
+	
+}
+p+p {
+	font-family: BebasNeueRegular;
+	font-weight: 300; /*light*/
+/*}
+p+p+p {
+	font-family: BebasNeueRegular;
+	font-style: Book; /*Book*/
+/*}
+p+p+p+p {
+	font-family: BebasNeueRegular;
+	font-weight: 200; /*Thin*/
+/*} */
+
+/*/
+
+/*100	Ultra Light
+200	Thin
+300	Light
+400	Regular, Normal
+500	Roman
+600	Medium, SemiBold
+700	Bold
+800	Heavy, ExtraBold
+900	Black */                
