@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		form {
+			width: 500px;
+			border-radius: 10px;
+			box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+			padding: 10px;
+    		font-family: 'Open Sans', sans-serif;
+    		font-size: 16px;
+    		border:1px solid #ccc;
+    		margin:20px auto;
+		}
+		div>div {
+			padding:10px;
+		}
+		input, textarea {
+			width: 100%;
+			border-radius: 5px;
+			height: 30px;
+			padding: 5px;
+			font-family: 'Open Sans', sans-serif;
+    		font-size: 16px;
+    		font-weight: 400;
+    		border: 1px solid #ccc;
+		}
+		.texarea1 {
+			height: 60px;
+		}
+		.border {
+			
+  			border-top: 1px solid #ccc;
+  			border-bottom: 1px solid #ccc;
+  			margin-top: 10px;
+  			padding-top: 10px;
+  			margin-bottom: 10px;
+  			padding-bottom: 10px;
+		}
+		select {
+    		display: inline-block;
+    		width: 100%;
+    		font-family: 'Open Sans', sans-serif;
+    		font-size: 16px;
+    		font-weight: 400;
+    		padding: 5px;
+    		border: 1px solid #ccc;
+    		border-radius: 5px;
+}
+	</style>
+</head>
+<body>
+	<form action="#">
+		<h1>Fill the form</h1>
+		<div>
+		<div>
+			<label for="name">Your Name</label>
+			<input type="text" placeholder="John">
+		</div>
+		<div>
+			<label for="surname">Your Surname</label>
+			<input type="text" placeholder="Doe">
+		</div>
+		<div>
+			<label for="mail">Your Email</label>
+			<input type="text" placeholder="mail@mail.ru">
+		</div>
+		<div>
+			<label for="pass">Your Password</label>
+			<input type="text" placeholder="Your Password">
+		</div>
+		<div>
+			<label for="name">Few words about You</label>
+			<textarea class="texarea1" name="comment" placeholder="In awesome"></textarea>
+		</div>
+		</div>
+		   <div class="border">
+  	  <label for="country">Your Country</label>
+  	  <select name="country" id="country">
+        <option value="ua">Ukraine</option>
+        <option value="ua">USA</option>
+        <option value="ua">Australia</option>
+  	  </select>
+  </div>
+	</form>
+</body>
+</html>

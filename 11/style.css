@@ -1,0 +1,64 @@
+@font-face {
+    		font-family: MontserratLight; 
+    		src: url(font/montserratLight.ttf); 
+   		}
+   		@font-face {
+    		font-family: MontserratRegular; 
+    		src: url(font/montserratRegular.ttf); 
+   		}
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+
+		}
+		body {
+			background-color: #f1f1f1;
+		}
+		table {
+			width: 1145px;
+			border-collapse:collapse;
+			margin: 0 auto;
+			background-color: #fff;
+			border: 0;
+		}
+		th {
+			font-family: MontserratRegular;
+			color: #dc1f26;
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+		.table-header {
+			padding-top: 23px;
+			padding-left: 28px;
+			padding-bottom: 20px;
+			text-align: left;
+		}
+		td {
+			padding-left: 30px;
+			padding-bottom: 9px;
+			padding-top: 16px;
+			text-align: left;
+			font-family: MontserratLight;
+			border:0 none;
+		}
+		tr:nth-child(2n) {
+    		background: #fbfbfb;
+
+		}
+
+		tr>td:last-child {
+			width: 180px;
+			border-left: 1px solid #f1f1f1;
+		}
+		a {
+			text-decoration: none;
+			color:#dc1f26;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		tr:hover {
+			background-color: #d4d4d4;
+			color:#dc1f26;
+		}
