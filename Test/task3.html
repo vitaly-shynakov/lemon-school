@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		form {
+			width: 400px;
+			box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.2), inset
+ 0px 0px 5px rgba(0,0,0,0.9);
+			
+			padding: 16px;
+    		font-family: arial;
+    		font-size: 14px;
+    		border:1px solid black;
+    		margin:20px auto;
+    	}
+    	input {
+    		width: 100%;
+    		margin-bottom: 14px;
+    		margin-top: 7px;
+    		border:1px solid black;
+    		padding: 7px 0;
+    		text-indent:5px;
+
+    	}
+    	.radio label {
+  			display: inline-block;
+  			margin-right: 10px;
+    	}
+    	
+    	/*#radio {
+    		display: inline-block;
+    	}*/	
+    	input[type="radio"] {
+    		display: inline-block;
+			
+    	}
+    	.buttom {
+    		height: 22px;
+    		width: 120px;
+    		background-color: black;
+    		color: white;
+    		display: block;
+    		margin-top: 15px;
+    		margin-bottom: 15px;
+    		line-height: 2px;
+
+    	}
+	</style>
+</head>
+<body>
+	<form action="#">
+		<div>
+			<label for="name">Ваше имя</label>
+			<input type="text" placeholder="Иванов Иван Иванович">
+		</div>
+		<div>
+			<label for="job">Ваш род деятельности</label>
+			<input type="text" placeholder="Напимер, слесарь">
+		</div>
+	   <p>Согласны ли Вы с условиями?<p>
+	   <div class="radio">
+	       	<label><input  name="sure" type="radio" value="yes"><span>Категорически Да!</span></label>
+    		<label><input  name="sure" type="radio" value="no"><span> Категорически НЕТ!</span></label>
+    	</div>
+       	<input class="buttom" type="submit" value="Отправить">
+       
+  </form> 	
+</body>
+</html>
